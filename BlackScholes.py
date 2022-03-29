@@ -8,6 +8,7 @@ class Model:
         self.ex_p = ex_p
         self.int_rate = int_rate
         self.time_to_exp = time_to_exp
+        self.vol = vol
         self.d1 = (np.log(stock_p/ex_p)+(int_rate+(vol**2/2))*time_to_exp)/(vol*np.sqrt(time_to_exp))
         self.d2 = self.d1 - vol*np.sqrt(time_to_exp)
         self.get()

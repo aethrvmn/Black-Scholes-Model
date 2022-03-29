@@ -40,8 +40,7 @@ def brownian(time_range, mean=0, sd=1):
     for i in np.arange(1, time_range):
         path[i] = path[i-1]+np.random.normal(mean*time[i], sd*time[i])
 
-    volatility = max(path)-min(path)
-    return time, path#, volatility
+    return time, path
 ```
 
 where time has a range from 0 to 1, because we can always scale the

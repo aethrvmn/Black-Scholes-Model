@@ -6,7 +6,7 @@ We attempt to make a program that predicts optional premiums, using the
 Black-Scholes model, introduced in 1973.
 
 To start off, we first install all the required modules, (We have the
-cell commented, but in the case that one or more modules aren\'t
+cell commented, but in the case that one or more modules aren't
 installed, uncomment and run once the cell below.)
 
 ``` python
@@ -94,7 +94,7 @@ reuse the names of variables, we clear everything and move to Section 2.
 (We could just skip this step since the variables would simply get
 replaced, but it is easier during working to just clear everything.
 There were many instances where we unknowingly used variables that we
-didn\'t replace and were puzzled at the plots no changing etc.)
+didn't replace and were puzzled at the plots no changing etc.)
 
 ``` python
 del option, stock_price, exercise_price, interest, variance, volatility, walk, time_range, time, expiration_date

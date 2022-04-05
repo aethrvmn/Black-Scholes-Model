@@ -19,7 +19,6 @@ class that we import.
 ``` python
 import numpy as np
 import pandas as pd
-from tqdm import tqdm
 import matplotlib.pyplot as plt
 from BlackScholes import Model
 ```
